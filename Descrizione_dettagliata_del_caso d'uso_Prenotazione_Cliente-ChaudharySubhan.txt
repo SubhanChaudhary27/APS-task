@@ -1,0 +1,46 @@
+Descrizione dettagliata del caso d'uso "Prenotazione Cliente" di Chaudhary Subhan
+
+Descrizione caso d'uso
+
+NOME: Prenotazione Cliente
+
+Portata: Sistema "Viaggia con noi"
+
+Livello: Obiettivo Utente
+
+Attore Primario: Utente registrato (Cliente)
+
+Parti interessate e interessi: L'utente che vuole prenotare viaggi oppure pacchetti convenzionati utilizzando il sistema
+
+Pre-condizioni: L'utente deve essere registrato e avere un metodo di pagamento
+
+Post-condizioni: La prenotazione viene registrata nel Sistema e confermata tramite mail al cliente
+
+Scenario principale di Successo
+
+      1. Il caso d'uso inizia quando l'Utente accede al sistema e seleziona l'opzione per prenotare un viaggio o un pacchetto convenzionato
+
+      2. Il sistema mostra i cataloghi disponibili dei tour operator e consente all'utente di effettuare ricerche
+
+      3. L'Utente seleziona il tipo di viaggio o pacchetto desiderato (ferroviario, aereo, tour)
+
+      4. Il sistema richiede all'utente di inserire i dati necessari per la prenotazione, (date di viaggio, il numero di persone e i dettagli personali, metodo di pagamento)
+
+      5. L'Utente inserisce i dati richiesti e completa il pagamento della iniziale(Caparra)
+
+      6. Il sistema invia una conferma via email con un riepilogo della prenotazione e notifica l'utente che la richiesta è stata inviata all'agenzia di riferimento
+
+      7. Il sistema invia automaticamente una notifica all'utente due giorni prima della scadenza del pagamento del saldo
+
+Estensioni
+1)Pagamento non riuscito
+Il sistema notifica che il pagamento della caparra non è andato a buon fine
+
+2)Dati sbagliati
+L'Utente ripete il passo 4 finché non conferma di aver terminato correttamente
+
+3)Disponibilità limitata
+Il sistema notifica che il viaggio o il pacchetto selezionato non è disponibile per le date richieste
+
+Frequenza di Ripetizione
+Frequenza alta nelle Stagioni di viaggio
